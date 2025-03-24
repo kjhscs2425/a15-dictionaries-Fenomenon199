@@ -9,6 +9,6 @@ letter_counts= {} #initialization
 for letter in text: #iterate through a list 
     if letter in letter_counts:
         letter_counts [letter] += 1 #update if the key exists already
-else: 
-    letter_counts [letter]= 1 #update by adding the key 
-    print (letter_counts)
+    else: 
+        letter_counts [letter]= 1 #update by adding the key 
+print (letter_counts)
